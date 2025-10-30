@@ -1,0 +1,17 @@
+// Variable overrides first
+$primary: blue;
+$secondary: red;
+$light: green;
+$danger: gray;
+$enable-shadows: true;
+$prefix: "mo-";
+
+
+
+@media (max-width: 576px){
+    .ontainer-fluid>.row>div{
+        background-color: black;
+    }
+}
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap"

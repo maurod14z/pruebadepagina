@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bg-danger">
+
+    <div class=".container bg-secondary">
+        <h1 class="text-center text-primary" style="margin: 0; font-size: 4em;" id="home">CUEVANA</h1>
+    </div>
+
+
+<!--NAV-->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#peliculas">Peliculas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#novelas">Novelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#animes">Animes</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mas</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#form">Danos tu opinion</a></li>
+                <li><a class="dropdown-item" href="#contact">Contactanos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    
+    <div id="peliculas" class=" container text-center">
+      <h1>Peliculas</h1>
+      <div class="bg-primary" style="height: 200px;">
+        imagen1
+      </div>
+    </div>
+    <div id="novelas" class=" container text-center">
+      <h1>Novelas</h1>
+      <div class="bg-primary" style="height: 200px;">
+        imagen2
+      </div>
+    </div>
+    <div id="animes" class="container text-center">
+      <h1>Animes</h1>
+      <div class="bg-primary" style="height: 200px;">
+        imagen3
+      </div>
+    </div>
+    <br>
+
+
+
+
+
+
+
+    <!--TABLA-->
+    <div class="container">
+      <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-secondary">
+            <td>Jose</td>
+            <td>Mamani</td>
+            <td>jose@somemail.com</td>
+          </tr>      
+          <tr class="table-primary">
+            <td>Evo</td>
+            <td>Drorales</td>
+            <td>Evo@example.com</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>John</td>
+            <td>Kennedy</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Mario</td>
+            <td>Diaz</td>
+            <td>mario@example.com</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>July</td>
+            <td>Ramiraz</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Majin</td>
+            <td>Bu</td>
+            <td>majinbu@example.com</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Homero</td>
+            <td>Simpson</td>
+            <td>Homero@example.com</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Leonel</td>
+            <td>Messi</td>
+            <td>messi@example.com</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Cristiano</td>
+            <td>Ronaldo</td>
+            <td>CR7@example.com</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Mr</td>
+            <td>Satan</td>
+            <td>mrsatan@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+
+
+    <!--FILAS Y COLUMNAS-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 bg-light" style="height: 100px;">1</div>
+            <div class="col-sm-6 bg-secondary" style="height: 100px;">2</div>
+            <div class="col bg-primary">3</div>
+        </div>
+    </div>
+
+
+
+
+    <!--FORM-->
+    <div class="container">
+    <form id="form">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
+        </div>
+    </form>
+    </div>
+
+
+
+
+    <footer class="text-center bg-danger" id="contact" style="padding: 50px 0px;">
+      <p>Direccion: Calle La Paz 123</p>
+      <p>Ciudad de Potosi</p>
+      <p>Telefono: +591 70000000</p>
+      <p>Email: contacto@miempresa.com</p>
+      <a href="https:google.com">FACEBOOK</a>
+      <a href="https:google.com">INSTAGRAM</a>
+      <p>&copy; 2025 Cuevana. Todos los derechos reservados</p>
+      <a href="https:google.com">Politicas de privacidad</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
